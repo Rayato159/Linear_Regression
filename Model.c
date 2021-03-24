@@ -66,7 +66,7 @@ int main(){
 
     float predict_x;
 
-    printf("\n\nLet's predict!!!\n input_x : ");
+    printf("\n\nLet's predict!!!\ninput_x : ");
     scanf("%f", &predict_x);
     printf("result : %.4f", predict(a, b, predict_x));
 
