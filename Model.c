@@ -106,5 +106,8 @@ int main(){
     scanf("%f", &predict_x);
     printf("result: %.4f\n", predict(Model.a, Model.b, predict_x));
 
+    free(x);
+    free(y);
+
     return 0;
 }
