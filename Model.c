@@ -98,7 +98,7 @@ int main(){
     tss = TSS(y, y_bar, n);
     r_squared = 1-(rss/tss);
 
-    printf("R_squaredd: %.4f\n", r_squared);
+    printf("R_squared: %.4f\n", r_squared);
 
     float predict_x;
 
